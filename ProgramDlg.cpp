@@ -22,7 +22,7 @@ void CProgramDlg::DoDataExchange(CDataExchange* pDX)
 {
 	fg = true;
 
-	SetWindowTextW(L"Машина для перевозу вантажу");
+	SetWindowTextW(L"ГЊГ ГёГЁГ­Г  Г¤Г«Гї ГЇГҐГ°ГҐГўГ®Г§Гі ГўГ Г­ГІГ Г¦Гі");
 
 	CDialog::DoDataExchange(pDX);
 }
@@ -75,71 +75,7 @@ void CProgramDlg::OnPaint()
 	else
 	{
 
-		/*
-		CClientDC dc(this);
-		GetClientRect(&rc);
-		cf = RGB(0, 0, 0);
-		hPenOxy = CreatePen(PS_SOLID, 12, cf);
-		hOldPen = (HPEN)SelectObject(dc, hPenOxy);
-		dc.FillSolidRect(&rc, RGB(255, 255, 255));
-		RH = abs(rc.left - rc.right);
-		RW = abs(rc.top - rc.bottom);
-		cx = RH / 2;
-		cy = RW / 2;
-
-		x1 = w.left = cx - 120;
-		x2 = w.right = cx + 260;
-		y1 = w.top = cy -200;
-		y2 = w.bottom = cy + 45;
-		//t.Format(L"RH=%i   , RW=%i \n cx=%i  , cy=%i \n x1=%i  , y1=%i \n x2=%i  , y2=%i ", RH,RW,cx, cy,x1,y1,x2,y2);
-		//AfxMessageBox(t);
-		//FreightVehicle(x1, y1, x2, y2);
-		dc.Rectangle(&w);
-		w.left = x1 - 170;
-		w.top = y1 + 247;
-		w.right = x2 - 40;
-		w.bottom = y2 + 51;
-		dc.Rectangle(&w);
-		dc.MoveTo(x1 - 110, y1 + 60);
-		dc.LineTo(x2 - 425, y1 + 60);
-		dc.LineTo(x2 - 425, y2 - 80);
-		dc.LineTo(x1 - 150, y2 - 80);
-		dc.LineTo(x1 - 110, y1 + 60);
-		dc.MoveTo(x1 - 135, y1 + 35);
-		dc.LineTo(x2 - 400, y1 + 35);
-		dc.LineTo(x2 - 400, y2);
-		cf = RGB(255, 255, 255);
-		hPenOxy = CreatePen(PS_SOLID, 24, cf);
-		hOldPen = (HPEN)SelectObject(dc, hPenOxy);
-		dc.MoveTo(x2 - 418, y2);
-		dc.LineTo(x1 - 160, y2);
-		cf = RGB(0, 0, 0);
-		hPenOxy = CreatePen(PS_SOLID, 12, cf);
-		hOldPen = (HPEN)SelectObject(dc, hPenOxy);
-		dc.MoveTo(x1 - 170, y2 + 10);
-		dc.LineTo(x1 - 170, y2 - 120);
-		dc.LineTo(x1 - 135, y1 + 35);
-		int r1 = 110;
-		x = x2 - 200;
-		y = y2;
-		dc.Ellipse(x, y, x + r1, y + r1);
-		int r2 = 100;
-		x = x2 - 220;
-		y = y2 - 20;
-		dc.Ellipse(x + r2 / 2, y + r2 / 2, x + r2, y + r2);
-		r1 = 110;
-		x = x1 - 121;
-		y = y2;
-		dc.Ellipse(x, y, x + r1, y + r1);
-		r2 = 100;
-		x = x1 - 141;
-		y = y2 - 20;
-		dc.Ellipse(x + r2 / 2, y + r2 / 2, x + r2, y + r2);
-		//Kolco(x2 - 200, y2, 110, 100);
-		//Kolco(x1 - 121, y2, 110, 100);
-		SelectObject(dc, hOldPen);
-		DeleteObject(hPenOxy);
-		*/
+		
 
 
 		CClientDC dc(this);
