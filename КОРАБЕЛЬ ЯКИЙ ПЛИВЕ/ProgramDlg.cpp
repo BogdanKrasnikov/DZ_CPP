@@ -99,11 +99,11 @@ void CProgramDlg::OnPaint()
 		x1 = w.left = cx;
 		y1 = w.top = cy - 4 * dy;
 
-		for (x1 = x1 + 400; x1 >= -500; x1 -= 50)
+		for (x2 = x2 + 100; x2 >= -500; x2 += 50)
 		{
 			Sleep(mtime - 150);
 			dc.FillSolidRect(&rc, RGB(255, 255, 255));
-			x2 = w.right = x1;
+			x1 = w.left = x2;
 			y2 = w.bottom = y1 + 8 * dy;
 
 			
